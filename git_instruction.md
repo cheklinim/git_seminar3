@@ -105,3 +105,13 @@ Send changes to remote from local:
 
     git push
 
+**Upload changes from remote on local repository:**
+
+- For uploading changes from remote repository use next commsnd:
+
+    git pull
+
+*IMPORTANT:*
+
+- When you work with other programmers on the same project, your local project can become outdated at any moment.
+- Before sending changes with "push" command exatly using "pull" command!
