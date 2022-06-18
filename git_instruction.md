@@ -81,7 +81,7 @@ For deleting:
 
     git branch -d  deleting_branch_name
 
-### Adding picture
+## Adding picture
 
 You can add picture in your md file
 
@@ -91,4 +91,9 @@ For adding picture:
     
 If picture path or url nit be found, message in [] will be visible.
 
-### Work with remote repositories
+## Work with remote repositories
+
+**Creating remote repository:**
+- For working with remote repository need to register and login in on github.com. 
+- After you need to create new repository with default settings on you main page on github.com. 
+- On opened page choose you variant for connecting local and remote repository.
