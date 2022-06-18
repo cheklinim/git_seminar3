@@ -122,3 +122,14 @@ Send changes to remote from local:
     git clone project_ref
 
 You can take project ref on main page of project, which you want to copy. You need click on green button with "code" label and choose "http". This is ref for cloning.
+
+**Pull request**
+
+On github many open sourse project. If you want to help any open project, you can did it. You need ref with "fork" label on main project page and click that. Then you can copy this project to you remote repository on github. You already know how to copy it to you local repository. 
+
+*Important:* you must to create new branch and adding changes to this branch!
+
+When you're done with your changes, save them to your remote repository where you keep a copy of the project. 
+Open main page this repository on your github repositories. Choose your branch, which you created, and click "contribute", then click on green button with "Open pull request' label.
+
+That's all for starting! :)
