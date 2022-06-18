@@ -1,99 +1,94 @@
- # **Инструкция по работе с GIT**
+# Instruction how to use Git
 
-Данная иструкция составлена для помощи себе в дальнейшей работе с системой контроля версий.
+![Git logo](Git-Logo-2Color.png)
 
-## Что такое GIT
+## Creating repository
 
-![Эмблема Git](git.JPG)
-
-Система контроля версий Git была создана *Линусом Торвальдсом* для работы при создании ядра ОС Linux. На данный момент это самая популярная система контроля версий в мире.
-
-## Создание репозитория
-
-Для создания репозитория (говорят "инициализации") используется команда:
+Enter next command for create local repository
 
     git init
 
-## Добавление коммитов
+## Status control
 
-Для отслеживания версионности необходимо вначале добавить измененный файл (не забыть его сохранить) к отслеживанию, а затем зафиксировать изменения.
-
-### Добавление версионности
-
-Чтобы добавить файл к отслеживанию версионнности используется команда:
-
-    git add <имя файла>
-
-где <имя файла> - полное имя добавляемого файла с расширением.
-
-### Создание коммита
-
-Чтобы зафиксировать изменения используется команда:
-
-    git commit -m "комментарий"
-
-где "комментарий" - краткое описание изменений в этом коммите. Кавычки обязательны!
-
-### Просмотр состояния
-
-Чтобы просмотреть текущее состояние репозитория используется команда:
+Enter next command for geting status
 
     git status
 
-## Команды для просмотра журнала изменений
+## Adding files for tracking
 
-Чтобы просмотреть историю изменений используется команда:
+Enter next command for adding file into tracking
+
+    git add file_name
+
+## Saving this stage in local repository
+
+    git commit -m "Your message"
+
+Message need for information about changes in this stage
+
+## Show history of commits
 
     git log
 
-Возможно использование параметра для просмотра истории в сокращенном виде:
+For hashes and names in one line:
 
     git log --oneline
 
-## Команды для работы с коммитами
+## Traveling on history of commits
 
-Для переключения между разными "сохранениями" используется команда:
+    git checkout commits_hash
 
-    git checkout <хэш коммита>
+comits_hash is may be first four number or branch name
 
-где <хэш коммита> - специальный набор символов однозначно определяющий каждый коммит.
-
-## Просмотр различий
-
-Для просмотра различий между версиями используется команда:
+## Showing changes
 
     git diff
 
-В таком виде будут показаны различия между текущим (незакоммиченным) состоянием репозитория и последним актуальным коммитом.
+This will show the changes in the file
 
-Либо можно использовать команду:
+If you want to compare another commits:
 
-    git diff <хэш1> <хэш2>
-
-Где <хэш1> <хэш2> - хэши сравниваемых коммитов.
-
-## Создание веток
-
-Для создания новой ветки используется команда:
-
-    git branch <имя ветки>
-
-## Переход между ветками
-
-Для перехода на другую ветку исползуется команда:
-
-    git checkout <имя ветки>
-
-## Слияние веток
-
-Для того, чтобы влить одну ветку в другую нужно перейти в ту ветку КУДА будем производить слияние и ввести команду:
-
-    git merge <имя ветки из которой добавляем изменения>
-
-## Удаление веток
-
-Для удаления ветки используется команда:
+    git diff first_commit_hash second_commit_hash
     
-    git branch -d branches
 
-## Working with remote repositories
+## Branches
+
+Branches are used in git for group work and separation of tasks.
+
+### Branch list:
+
+For showing branches list:
+
+    git branch
+
+### Create branch
+
+For create new branch:
+
+    git branch new_branch_name
+
+### Merging branches
+
+For merging (IMPORTANT: You must be in branch, which you want changing!):
+
+    git merge another_branch_name
+
+### Deleting branches
+
+After the merge, you need to delete the non-master branch.
+
+For deleting:
+
+    git branch -d  deleting_branch_name
+
+### Adding picture
+
+You can add picture in your md file
+
+For adding picture:
+
+    ![message](path or url to picture)
+    
+If picture path or url nit be found, message in [] will be visible.
+
+### Work with remote repositories
