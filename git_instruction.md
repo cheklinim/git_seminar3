@@ -115,3 +115,10 @@ Send changes to remote from local:
 
 - When you work with other programmers on the same project, your local project can become outdated at any moment.
 - Before sending changes with "push" command exatly using "pull" command!
+
+**Cloning from remote repository:**
+- If you want to copy your or other users projects from github.com, then use "clone" command:
+
+    git clone project_ref
+
+You can take project ref on main page of project, which you want to copy. You need click on green button with "code" label and choose "http". This is ref for cloning.
