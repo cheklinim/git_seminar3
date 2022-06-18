@@ -97,3 +97,11 @@ If picture path or url nit be found, message in [] will be visible.
 - For working with remote repository need to register and login in on github.com. 
 - After you need to create new repository with default settings on you main page on github.com. 
 - On opened page choose you variant for connecting local and remote repository.
+
+**Saving changes from local on remote repository:**
+- When you set up connection local with remote repository, you can to save changes from local on remote repository. 
+
+Send changes to remote from local:
+
+    git push
+
