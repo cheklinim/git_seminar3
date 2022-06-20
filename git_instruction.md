@@ -98,7 +98,15 @@
 
 ## Работа с удаленными репозиториями
 
-   * Создаем аккаунт на GitHab
+    Создаем аккаунт на GitHab
+
+## Перемещение файла из локального репо в удаленный
+  
+   * В треминале пишем 
+   * git remote add origin https://github.com/supreme1444/112.git
+   * git branch -M main
+   * git push -u origin main
+   
    
 
       
