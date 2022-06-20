@@ -95,3 +95,15 @@
 Для удаления ветки используется команда:
     
     git branch -d branches
+
+
+## Копирование репозитория
+
+Чтобы клонировать удаленнный репозиторий к себе локально, необходимо в терминале набрать команду:
+
+    git clone https://github.com/DrozdovAndrey/git_seminar3.git
+
+где (https://github.com/DrozdovAndrey/git_seminar3.git) - это скопированный код из Github.
+
+
+
