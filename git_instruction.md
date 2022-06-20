@@ -106,7 +106,18 @@
    * git remote add origin https://github.com/supreme1444/112.git
    * git branch -M main
    * git push -u origin main
-   
+
+## Пулреквест
+   * Создаем пустую папку
+   * Делаем форк из желанного репозитория
+   * Командой git  clone <Ссылка с гитхаба> тащим к себе в git
+   * Переходим в клонированный файл cd <название файла>
+   * Создаем свою ветку и делаем нужные изменения 
+   * Командой  git push --set-upstream origin remoted  
+               git push
+     Далее в Гитхабе переходим в созданную ветку и нажимаем Contribute
+              
+
    
 
       
