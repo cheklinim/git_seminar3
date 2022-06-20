@@ -103,13 +103,22 @@
 
     git clone https://github.com/DrozdovAndrey/git_seminar3.git
 
-где (https://github.com/DrozdovAndrey/git_seminar3.git) - это скопированный код из Github.
+где (https://github.com/DrozdovAndrey/git_seminar3.git) - это скопированный код/адрес из Github.
 
 ## Переход между папками 
 
 Чтобы переключиться на нужную папку, необходимо в терминале набрать команду:
 
     cd folder_name
+
+## Добавить уделнный репозиторий
+
+Чтобы добавить удаленный репозиторий, необходимо в терминале набрать команду:
+
+    git remote add origin https://github.com/DrozdovAndrey/git_seminar3.git
+
+где (https://github.com/DrozdovAndrey/git_seminar3.git) - это скопированный код/адрес из Github.
+
 
 
 
