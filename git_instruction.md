@@ -1,4 +1,4 @@
-![фоновая картинка](.\Images\git_jpg.jpg)
+![фоновая картинка](./Images\git_jpg.jpg)
 
 #### __https://git-scm.com/__
 
