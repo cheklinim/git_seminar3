@@ -129,3 +129,18 @@
         git branch <имя ветки>
         git checkout <имя ветки>
 
+6. Чтобы с локального репозитория отправить внесенные изменения на удаленный, нужно ввести команду:
+
+        git push
+
+После первой отправки команды git push может выдать ошибку:
+
+    fatal: The current branch remote has no upstream branch.
+    To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin remote
+
+Чтобы исправить нужно ввести команду:
+
+        git push --set-upstream origin remote
+
